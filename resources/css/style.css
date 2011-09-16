@@ -1,0 +1,401 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url("../img/bg-body.jpg") no-repeat scroll center top #C8ECFE;
+	font: 16px/150% sans-serif;
+}	
+
+.middle-background {
+	float: left;
+	margin-left: -3px;
+	width: 102px;
+}
+
+.left-background {
+	width: 401px;
+	float: left;
+	border-radius: 15px 0 0 15px;
+}
+
+.right-background {
+	width: 401px;
+	float: left;
+	border-radius: 0 15px 15px 0;
+	margin-left: -2px;
+}
+
+.height {
+	height: 600px;	
+}
+
+#wrapper {
+	margin: 190px auto 0;
+	width: 900px;	
+	height: 600px;
+	border: 7px solid white;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 0 5px 10px black;
+}
+
+#container {
+	width: 900px;
+	position: absolute;
+	top: 0;
+	height: 835px;
+}
+
+#countdownWrapper {
+	margin: 0 auto;
+	width: 790px;
+	z-index: 99999;	
+}
+
+#countdown .description, #countdown .description div {
+	float: left;	
+}
+
+#countdown .description {
+	margin-left: 135px;
+    margin-top: -55px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	width: 120%;
+}
+
+#countdown .description .d{
+	margin-right: 120px;
+
+}
+
+#countdown .description .h{
+	margin-right: 70px;
+
+}
+
+#countdown .description .m{
+	margin-right: 60px;
+
+}
+
+
+.schilder {	
+	border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 5px 10px black;
+    top: 80px;
+	
+}
+
+#leipzig {
+	float: right;
+	left: 90px;
+    position: relative;
+	-moz-transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+  transform:rotate(45deg);
+}
+
+#bangkok {
+	float: left;
+	left: -90px;
+    position: relative;
+	-moz-transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+}
+
+#status {
+	margin: 310px auto 0;
+	width: 800px;	
+}
+
+#stan {
+	background: url("../img/Stan.png") no-repeat scroll center top transparent;
+	float: right;
+	height: 150px;
+	width: 120px;
+	z-index: 2;
+	border:5px solid white;
+	line-height:1.3em;
+	margin:10px -75px 10px 0px;
+	padding:10px;
+	position:relative;
+	text-align:center;  
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-box-shadow:0 0 5px #888888;
+	-webkit-box-shadow:0 0 5px #888888;
+	box-shadow: 0 5px 10px black;
+	
+	font-size: 13px;
+}
+
+#together {
+    border: 5px solid white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 5px #888888;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 300px;
+    z-index: 1;
+	box-shadow: 0 5px 10px black;
+}
+
+
+#amrei {
+	background: url("../img/Amrei.png") no-repeat scroll center top transparent;
+	float: left;
+	height: 150px;
+	width: 120px;
+	z-index: 2;
+	border:5px solid white;
+	font-size:35px;
+	line-height:1.3em;
+	margin:10px 0 10px -75px;
+	padding:10px;
+	position:relative;
+	text-align:center;  
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-box-shadow:0 0 5px #888888;
+	-webkit-box-shadow:0 0 5px #888888;
+	box-shadow: 0 5px 10px black;
+	
+	font-size: 13px;
+}
+
+#amrei.twin, #stan.twin {
+	border: 0 none;
+    box-shadow: none;
+    margin: 0 auto;
+	width: 130px;
+}
+
+#amrei.twin {
+	border: 0 none;
+    box-shadow: none;
+    margin: 0 auto;
+	width: 130px;
+	
+	background: url("../img/amreiTo.png") no-repeat scroll center top transparent;
+	
+	-moz-border-radius:5px 0 0 5px;
+	-webkit-border-radius:5px 0 0 5px;
+}
+
+#stan.twin {
+	border: 0 none;
+    box-shadow: none;
+    margin: 0 auto;
+	width: 130px;
+	
+	background: url("../img/stanTo.png") no-repeat scroll center top transparent;
+	
+	-moz-border-radius:0px 5px 5px 0;
+	-webkit-border-radius:0px 5px 5px 0;
+}
+
+.clock {
+	background: none repeat scroll 0 0 white;
+    border-radius: 0 0 10px 10px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: -11px;
+	position: relative;
+	z-index:2;
+	font-family: 'Orbitron', sans-serif;		
+}
+
+.twin .weather {
+ 	width: 140px;
+}
+
+.weather {
+ 	 background: url("../img/transPixel70.png") repeat scroll 0 0 transparent;
+    height: 140px;
+    margin: 0 0 0 -10px;
+    padding: 30px 5px 0;
+    position: relative;
+    text-align: left;
+    top: -24px;
+    width: 130px;
+    z-index: 1;
+}
+
+.weather *{
+ 	float:left;
+}
+
+.weather img{
+ 	border-radius: 5px;
+	box-shadow: 0 5px 10px black;
+}
+
+.weather .temp{
+ 	font-size: 30px;
+    padding-top: 15px;
+    width: 90px;
+	text-align: center;
+}
+
+.weather .title{
+ 	float:left;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 8px;
+}
+
+.weather .stat{
+ 	float:left;
+	width: 100%;
+	line-height: 14px;
+	font-size: 12px;
+	margin-top: 10px;
+	
+}
+
+.weather .sunrise{
+ 	float:left;
+	width: 100%;
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 5px;
+}
+
+.weather .sunset{
+ 	float:left;
+	width: 100%;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.cl {
+	background: url("../img/corner-left.png") no-repeat scroll 0 0 transparent;
+    bottom: 0;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    width: 20px;
+}
+
+.cr {
+	background: url("../img/corner-right.png") no-repeat scroll 0 0 transparent;
+    bottom: 0;
+    height: 20px;
+    right: 0;
+    position: absolute;
+    width: 20px;
+}
+
+
+.arrow {
+	border-color: #EDEDED transparent transparent;
+	border-style: solid;
+	border-width: 10px;
+	bottom: -25px;
+	height: 0;
+	left: 60px;
+	position: absolute;
+	width: 0;
+}
+
+#timeline {
+	float: left;
+	left: 100px;
+	position: relative;
+	top: 10px;
+	width: 700px;
+	z-index: 1;
+}
+
+#timeline div {
+	float: left;
+	box-shadow: 0 5px 10px black;	
+}
+
+#timeline .left {
+	background: none repeat scroll 0 0 grey;
+    height: 7px;
+    opacity: 0.5;
+	width: 349px
+}
+
+#timeline .middle {
+	background: none repeat scroll 0 0 blue;
+	height: 7px;
+	width:2px
+}
+
+#timeline .right {
+	background: none repeat scroll 0 0 grey;
+    height: 7px;
+    opacity: 0.5;
+	width: 349px
+}
+
+.timeline-content {
+	position: relative;
+	z-index: 1;	
+	float: left;
+	margin-left: 55px;
+}
+
+.timeline-content div {
+	background: url("../img/timelinedot.png") no-repeat scroll 8px 0 transparent;
+    height: 59px;
+    margin-top: 6px;
+    padding-top: 19px;
+    position: absolute;
+    width: 24px;
+}
+
+.timeline-content .l3 {
+	left: -620px;
+}
+.timeline-content .l2 {
+	left: -520px;
+}
+.timeline-content .l1 {
+	left: -420px;
+}
+.timeline-content .h {
+	background-position: 16px 0;
+    left: -328px;
+    width: 59px;
+}
+
+.timeline-content .h img {
+	position: absolute;
+	margin: 0 auto;
+}
+
+.timeline-content .r1 {
+	left: -219px;
+}
+.timeline-content .r2 {
+	left: -122px;
+}
+
+.timeline-content .r3 {
+	left: -22px;
+}
+
+.timeline-content .anika {
+	left: -426px;
+}
+
+
+
+#landscape {
+	background: url("../img/landscape.png") no-repeat scroll center top transparent;	
+	width: 100%;
+	height: 138px;
+	position:relative;
+	bottom: -62px;
+	border-radius: 0 0 15px 15px;
+}
