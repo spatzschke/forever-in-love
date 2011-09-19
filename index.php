@@ -121,10 +121,10 @@
 			}
 			
 			function setCheck(now) {
-				var monthTimeOne = Date.parse(new Date(2011,11,19,16,00,00));
-				var monthTimeTwo = Date.parse(new Date(2011,10,19,16,00,00));
-				var monthTimeThree = Date.parse(new Date(2011,9,19,16,00,00));
-				
+				var monthTimeOne = Date.parse(new Date(2011,11-1,19,16,00,00));
+				var monthTimeTwo = Date.parse(new Date(2011,10-1,19,16,00,00));
+				var monthTimeThree = Date.parse(new Date(2011,9-1,19,16,00,00));
+	
 				if(now > monthTimeThree) {
 					$('.timeline-content div.l3').find('img').hide();
 					$('.timeline-content div.r3').find('img').hide();
