@@ -57,11 +57,15 @@
 				
 				var now = Date.parse(new Date());
 				var start = Date.parse(new Date(2011,9-1,3,16,00,00));
-				var meeting = Date.parse(new Date(2011,12-1,19,16,55,00));
+				var meeting = Date.parse(new Date(2011,12-1,13,0,39,00));
 				
 				setCheck(now);
 				
 				var percent = (meeting - now) / (meeting-start);
+				
+				if(percent <= 0) {
+					$('head').append('<link media="all" type="text/css" href="resources/css/heart.css" rel="stylesheet">');
+				}
 				
 				scaleHeart(percent);
 				if(now >= start) {
@@ -195,7 +199,7 @@
     	
         <div id="wrapper">
             
-                <div id="background" style="width: 100%; height: 400px;">
+                <div id="background" style="width: 100%;">
                 
                     <div class="left-background height <?php echo $amreiPio["daylight"];?>"></div>
                     <div class="middle-background height <?php echo $amreiPio["daylight"];?>-<?php echo $stanPio["daylight"];?>"></div>

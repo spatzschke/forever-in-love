@@ -1,0 +1,20 @@
+body {
+	background: #f4d3d3 url('../img/bg-bodyRed.png') no-repeat left top;
+}
+
+#background {
+	height: 600px;
+	background: transparent url('../img/heartBG.png') no-repeat left top;
+}
+
+#background div {
+	background: none;
+}
+
+#landscape , #timeline, .timeline-content, .arrow{
+	display:  none;
+}
+
+#status {
+	margin-top: 254px;
+}

@@ -5,6 +5,10 @@ body {
 	font: 16px/150% sans-serif;
 }	
 
+#background {
+	height:  400px;
+}
+
 .middle-background {
 	float: left;
 	margin-left: -3px;

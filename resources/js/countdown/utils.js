@@ -55,7 +55,7 @@ function formatNumber(number) { // String
 
 
 function formatNumberHundret(number) {
-		number = (number < 10 ? '00' : '') + number;
+		number = (number < 10 ? '0' : '') + number;
 		number = (number < 100 ? '0' : '') + number;
 
 	
